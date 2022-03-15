@@ -1,7 +1,7 @@
 #ifndef _SHAPES_H_
 #define _SHAPES_H_
 
-#define PI 3.1415926
+#define PI 3.14159262
 
 // Base class
 class Shape {
