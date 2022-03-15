@@ -9,7 +9,7 @@ const char *usage = "Usage: a.out [type] [num1] [num2] \n"
 		    "	num1 - width or radius \n"
 		    "	num2 - length \n";
 
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[])
 {
 	double num1 = 0, num2 = 0;
 
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 
 	shape->setWidth(num1);
 	shape->setHeight(num2);
-	
+
 	// Print the area of the object.
 	cout << shape->area() << endl;
 
